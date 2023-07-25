@@ -158,7 +158,7 @@ This is for Sejarah Page
 */
 
 
-.content-works {
+.content-client {
     max-width: 100%;
     max-height: 100%;
     margin-right: 60px;
@@ -166,35 +166,35 @@ This is for Sejarah Page
     margin-top: 50px;
 }
 
-.content-works h1{
+.content-client h1{
     color: var(--primarycolorlogo2);
 }
 
-.content-works h5{
+.content-client h5{
     font-size: 140px;
 }
 
-.our-works {
+.our-client {
     margin-top: 50px;
 }
 
-.our-works img {
+.our-client img {
     width: 600px;
     height: 338px;
 }
 
-.our-works-item-even {
+.our-client-item-even {
     margin-top: 50px;
     display: flex;
     align-items: center;
     /* Center items vertically */
 }
 
-.our-works-item-even h5 {
+.our-client-item-even h5 {
     margin-left: 100px;
 }
 
-.our-works-item-odd {
+.our-client-item-odd {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -202,6 +202,6 @@ This is for Sejarah Page
     /* Center items vertically */
 }
 
-.our-works-item-odd h5 {
+.our-client-item-odd h5 {
     margin-right: 100px;
 }
