@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Home;
+use App\Http\Livewire\OurWorks;
+use App\Http\Livewire\Sejarah;
+use App\Http\Livewire\StrukturPerusahaan;
 
 use function Termwind\render;
 
@@ -17,3 +20,6 @@ use function Termwind\render;
 */
 
 Route::get('/', Home::class)->name('home');
+Route::get('/sejarah', Sejarah::class)->name('sejarah');
+Route::get('/our-works', OurWorks::class)->name('our-works');
+Route::get('/struktur-perusahaan', StrukturPerusahaan::class)->name('struktur-perusahaan');
