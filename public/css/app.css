@@ -122,6 +122,7 @@
 
 .core-value {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .core-wrapper {
@@ -164,6 +165,7 @@ This is for Sejarah Page
     margin-right: 60px;
     margin-left: 60px;
     margin-top: 50px;
+    margin-bottom: 100;
 }
 
 .content-client h1 {
@@ -180,7 +182,6 @@ This is for Sejarah Page
 
 .our-client img {
     width: 600px;
-    height: 338px;
 }
 
 .our-client-item-even {
