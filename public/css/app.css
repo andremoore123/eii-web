@@ -207,17 +207,63 @@ This is for Sejarah Page
 }
 
 
+
 /*
-    Struktur Perusahaan Page
+This is for OurWorks Page
 */
 
-.content-struktur{
+.content-out-works {
     max-width: 100%;
     max-height: 100%;
     margin-right: 60px;
     margin-left: 60px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.content-out-works h1{
+    color: var(--primarycolorlogo2);
+}
+
+.out-works-list{
+    margin-top: 50px;
+}
+
+.out-works-list img {
+    width: 600px;
+    height: 338px;
+}
+
+
+.out-works-list-even {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+}
+
+.out-works-list-even h5 {
+    margin-left: 100px;
+}
+
+.out-works-list-odd {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Center items vertically */
+}
+
+.out-works-list-odd h5 {
+    margin-right: 100px;
+}
+
+/*
+    Struktur Perusahaan Page
+*/
+
+.content-struktur{
+      margin-bottom: 50px;
 }
 
 .content-struktur h1{
@@ -234,6 +280,3 @@ This is for Sejarah Page
 .content-company img{
     margin-top: 30px;
 }
-
-
-
