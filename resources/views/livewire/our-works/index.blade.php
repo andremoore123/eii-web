@@ -15,7 +15,7 @@
         <div class="out-works-list">
             @foreach ($works_array as $index => $item)
                 @if ($index % 2 === 0)
-                    <div class="our-works-item-even">
+                    <div class="our-client-item-even">
                         <img src="{{ asset($item['photo_url']) }}" alt="company_logo">
                         <h5 class="header-3">{{ $item['description'] }}</h5>
                     </div>
