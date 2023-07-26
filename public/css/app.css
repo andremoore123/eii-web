@@ -206,6 +206,8 @@ This is for Sejarah Page
     margin-right: 100px;
 }
 
+
+
 /*
 This is for OurWorks Page
 */
@@ -254,4 +256,27 @@ This is for OurWorks Page
 
 .out-works-list-odd h5 {
     margin-right: 100px;
+}
+
+/*
+    Struktur Perusahaan Page
+*/
+
+.content-struktur{
+      margin-bottom: 50px;
+}
+
+.content-struktur h1{
+    color: var(--primarycolorlogo2);
+}
+
+.content-company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-company img{
+    margin-top: 30px;
 }
