@@ -12,7 +12,7 @@
                 <ul>
                     <li><a class="btn-nav @yield('sejarah-active')" href="{{route('sejarah')}}">Sejarah</a></li>
                     <li><a class="btn-nav @yield('active')" href="{{route('our-works')}}">Our Works</a></li>
-                    <li><a class="btn-nav @yield('active')" href="{{route('struktur-perusahaan')}}">Struktur Perusahaan</a></li>
+                    <li><a class="btn-nav @yield('struktur-active')" href="{{route('struktur-perusahaan')}}">Struktur Perusahaan</a></li>
                     <!-- Add more navigation items as needed -->
                 </ul>
             </nav>
