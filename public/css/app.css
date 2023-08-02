@@ -231,7 +231,7 @@ This is for OurWorks Page
 }
 
 .out-works-list img {
-    width: 600px;
+    max-width: 600px;
     height: 338px;
 }
 
